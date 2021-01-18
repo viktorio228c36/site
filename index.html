@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FLC</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-overlay">
+            <div class="nav-container">
+
+                <div class="logo">
+                    <p class="company__name logo">
+                        <strong> FLC</strong> Industry <br>
+                    <p class="company__text">
+                        Uniting continents</p>
+                    </p>
+                </div>
+
+                <!-- НАВИГАЦИЯ -->
+                <div class="nav-wrapper">
+
+                    <!-- Навигация для десктопа -->
+                    <ul class="nav">
+                        <li class="nav__item"><a href="#" class="nav__link">About us</a></li>
+                        <li class="menu__list-item dropdown">
+                            <a href="#search" class="menu__list-link dropbtn nav__link">
+                                For employers
+                            </a>
+                            <div class="dropdown-content">
+                                <a href="#search">
+                                    Submit application</a>
+                                <a href="#search">
+                                    Our specializations</a>
+                            </div>
+                        </li>
+                        <li class="nav__item"><a href="#contacts" class="nav__link">Contacts</a></li>
+                        <li class="menu__list-item nav__link">
+                            <a class="menu__list-link dropbtn nav__link" href="page2.html">
+                                <img src="./images/france-header.png" alt="enflag" width="40px" height="25px"
+                                    class="flag-img">
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- Кнопка для мобильной навигации -->
+                    <div id="menu-togle" class="menu-icon">
+                        <div class="menu-icon-line"></div>
+                    </div>
+
+                    <!-- Мобильная навигация -->
+                    <div id="mobile-nav" class="mobile-nav">
+                        <div class="mobile-nav__title">FLC Indusrty</div>
+                        <ul class="mobile-nav__list">
+                            <li class="mobile-nav__item"><a href="#" class="mobile-nav__link">About us</a></li>
+                            <li class="mobile-nav__item"><a href="#search" class="mobile-nav__link">For employers</a>
+                            </li>
+                            <li class="mobile-nav__item"><a href="#contacts" class="mobile-nav__link">Contacts</a></li>
+                            <li class="menu__list-item nav__link">
+                                <a class="menu__list-link dropbtn nav__link" href="page2.html">
+                                    <img src="./images/france-header.png" alt="frflag" width="40px" height="25px"
+                                        class="flag-img">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+                <!-- // НАВИГАЦИЯ -->
+
+            </div>
+        </div>
+
+    </header>
+
+    <section class="about">
+        <div class="about__inner">
+            <div class="about__item">
+                <h4 class="about__item-title">
+                    About us</h4>
+                <p class="about__item-text">Our company is a European enterprise that, on the one hand, caters
+                    to the needs and interests of workers from Europe and, on the other hand, provides solutions for
+                    employers and recruitment agencies in North America.</p>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="profits">
+        <h4 class="profits__title" id="search">For employers</h4>
+        <div class="profits__inner">
+        </div>
+
+        <section class="block">
+            <div class="block__content">
+                <div class="block__inner">
+                    <p class="write">
+                        Submit your application</p>
+
+
+                    <div class="box">
+                        <form enctype="multipart/form-data" method="post">
+
+                            <!-- Hidden Required Fields -->
+                            <input type="hidden" name="project_name" value="FLC Industry">
+                            <input type="hidden" name="admin_email" value="flcindustry.de@gmail.com">
+                            <input type="hidden" name="form_subject" value="Заяка с сайта">
+                            <!-- END Hidden Required Fields -->
+                            <div class="form-group">
+                                <label for="nameFF">
+                                    Name:</label>
+                                <input type="text" name="Name" required><br>
+                            </div>
+                            <div class="form-group">
+                                <label for="emailFF">E-mail:</label>
+                                <input type="text" name="E-mail" required><br>
+                            </div>
+                            <div class="form-group">
+                                <label for="phoneFF">Phone:</label>
+                                <input type="text" name="Phone"><br>
+                            </div>
+                            <div class="form-group">
+                                <label for="messageFF">
+                                    Message</label>
+                                <textarea name="Textarea" cols="30" rows="5"></textarea><br>
+                            </div>
+                            <button>Send</button>
+
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="block3">
+            <div class="block__content3">
+                <div class="block3__inner">
+                    <p class="write">
+                        Our specializations</p>
+                    <ul class="offer__list3">
+                        <li class="offer__link3 offer__link3--active">
+                            Truck drivers</li>
+                        <br>
+                        <li class="offer__link3">
+                            Agricultural workers</li>
+                        <br>
+                        <li class="offer__link3">
+                            Fish industry</li>
+                        <br>
+                        <li class="offer__link3">
+                            Nursing specialists (babysitting, helping elderly people)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </section>
+
+
+    <footer class="footer">
+        <h4 class="profits__title" id="contacts">
+            Contacts</h4>
+        <div class="footer__inner">
+            <div class="footer__wrapper">
+                <div class="email-wrapper">
+                    <a class="header__email" href="mailto:flcindustry.de@gmail.com">flcindustry.de@gmail.com
+                </a>
+                </div>
+                <div class="footer__text">
+                    <p class="footer__title">
+                        Our offices: </p>
+                </div>
+                <div class="footer__flex">
+                    <div class="footer__container">
+
+                        <a href="https://goo.gl/maps/nZyfnpzzEcQztboE6"
+                            class="footer__location lastSection flag__1">Charlottenstr,
+                            75, 40210 <br> Düsseldorf, Deutschland </a>
+                        <a href="https://goo.gl/maps/DTKNjmeonyHy4JcL8" class="footer__location lastSection flag__2">
+                            Krakow, 31-036 <br> Halicka 9 </a>
+                        <a href="https://goo.gl/maps/6gWpXgKgPcn39dpA9" class="footer__location lastSection flag__3">
+                            Lomonosov 60 А, 88, <br> 03189, Kiev, Ukraine </a>
+                        <a href="https://goo.gl/maps/xTrwzbp6bSEw9BMKA" class="footer__location lastSection flag__4">
+                            Saint-Pétersbourg, île Vassilievski, 14e ligne.</a>
+                    </div>
+                    <div class="footer__map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d624.693154202879!2d6.790133029253599!3d51.22326429872436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8ca301b959935%3A0x39349d8529fb98c3!2sFLC%20Industry%20GmbH!5e0!3m2!1sru!2sua!4v1596800672321!5m2!1sru!2sua"
+                            frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"
+                            class="map"></iframe>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/d3js/5.15.1/d3.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+
+</html>
